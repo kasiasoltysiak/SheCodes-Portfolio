@@ -1,8 +1,27 @@
+/*font-family: 'Inter', sans-serif;
+/font-family: 'Monomaniac One', sans-serif;
+font-family: 'Playfair', serif; */
+:root {
+    --bg-color: #EFEBE6;
+    --main-font: 'Inter', sans-serif;
+}
 img {
     width: 100%;
     height: auto;
 }
 
 body {
-    background-color: blue;
+    background-color: var(--bg-color);
+    font-family: var(--main-font);
+}
+.logo {
+    font-size: 48px;
+    font-family: 'Monomaniac One', sans-serif;
+    padding: 0;
+}
+.bold {
+font-weight: 600;
+}
+.caps {
+    text-transform: uppercase;
 }
