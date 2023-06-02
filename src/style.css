@@ -4,24 +4,47 @@ font-family: 'Playfair', serif; */
 :root {
     --bg-color: #EFEBE6;
     --main-font: 'Inter', sans-serif;
-}
-img {
-    width: 100%;
-    height: auto;
+    --no-fill: transparent;
 }
 
 body {
     background-color: var(--bg-color);
     font-family: var(--main-font);
+
+}
+h1 {
+    font-size: 96px;
+    padding-top: 50px;
+}
+img {
+    width: 100%;
+    height: auto;
 }
 .logo {
-    font-size: 48px;
-    font-family: 'Monomaniac One', sans-serif;
-    padding: 0;
+    font-family: 'Monomaniac One', sans-serif; 
+    font-size: 54px;
+    color: white;
+}
+.logo2 {
+    font-family: 'Playfair', serif;
+    font-size: 54px;
+    color: white;
 }
 .bold {
 font-weight: 600;
 }
 .caps {
     text-transform: uppercase;
+}
+.navbar {
+    background-color: transparent !important;
+}
+
+.home-button {
+    background-color: black;
+    text-decoration: none;
+    color: #EFEBE6;
+    padding: 20px;
+    border-radius: 10px;
+    margin-top: 50px;
 }
