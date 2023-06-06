@@ -2,7 +2,7 @@
 /font-family: 'Monomaniac One', sans-serif;
 font-family: 'Playfair', serif; */
 :root {
-    --bg-color: #EFEBE6;
+    --bg-color: #F0EDED;
     --main-font: 'Inter', sans-serif;
     --no-fill: transparent;
 }
@@ -11,24 +11,33 @@ body {
     background-color: var(--bg-color);
     font-family: var(--main-font);
 
+}   
+.intro {
+    max-width: 800px;
+    margin: 0 auto;
 }
-h1 {
-    font-size: 96px;
-    padding-top: 50px;
+.logo {
+    max-width: 50px;
+}
+.intro h1,
+ h2 {
+    text-transform: uppercase;
+    line-height: 100%;
+}
+.intro  h1  {
+    font-size: 60px;
+    font-weight: 700;
+}
+.intro h2 {
+    font-size: 30px;
+    font-weight: 300;
+    text-align: right;
+    padding-top: 10px;
 }
 img {
     width: 100%;
     height: auto;
-}
-.logo {
-    font-family: 'Monomaniac One', sans-serif; 
-    font-size: 54px;
-    color: white;
-}
-.logo2 {
-    font-family: 'Playfair', serif;
-    font-size: 54px;
-    color: white;
+    border-radius: 4px;
 }
 .bold {
 font-weight: 600;
