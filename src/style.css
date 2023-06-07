@@ -37,7 +37,7 @@ h3 {
     line-height: 100%;
 }
 h1  {
-    font-size: 60px;
+    font-size: 64px;
     font-weight: 700;
 }
 h3 {
@@ -56,6 +56,12 @@ img {
         height: auto;
         border-radius: 4px;
     }
+img:hover  {
+    opacity: 0.9;
+}  
+.container a:hover {
+    background-color: var(--other-grey);
+}
      
 
 .intro h2 {
@@ -65,7 +71,8 @@ img {
     padding-top: 10px;
 }
 p {
-    font-weight: 100;
+    font-size: 16px;
+    line-height: 160%;
 }
 
 .home-button {
@@ -78,7 +85,7 @@ p {
     margin-top: 90px;
 }
 .limit {
-    max-width: 800px;
+    max-width: 900px;
 }
 .project {
     margin: 100px auto;
@@ -98,6 +105,13 @@ p {
     max-width: 200px;
     margin: 0px;
 }
+.about h1 {
+    font-size: 42px;
+}
+.about h2 {
+    font-size: 24px;
+    padding: 50px 0px;
+}
 
 @media (max-width: 800px) {
     .intro{
@@ -105,6 +119,9 @@ p {
     }
     .project-text {
  padding: 20px 0px;
+    }
+    h1 {
+        padding-top: 20px;
     }
 
 }
