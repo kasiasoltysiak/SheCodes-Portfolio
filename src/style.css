@@ -22,12 +22,13 @@ body {
 }
 .tall {
     margin-bottom: 50px;
-    min-height: 100px;
-    border: solid 1px black;
+    /*min-height: 70px;
+    border: solid 1px black;*/
 }
 .intro {
     max-width: 600px;
     margin: 0 auto;
+    padding-top: 30px;
 }
 
 h1,
@@ -59,8 +60,28 @@ img {
 img:hover  {
     opacity: 0.9;
 }  
-.container a:hover {
+.project a:hover {
     background-color: var(--other-grey);
+}
+footer {
+    display: block;
+    margin: 0 auto;
+    text-align: center;
+}
+footer a {
+    color: black;
+    text-decoration: none;
+    font-size: 14px;
+}
+
+footer a:hover {
+    color: var(--other-grey);
+    background-color: none !important;
+}
+
+footer i {
+    font-size: 20px;
+    padding: 2px;
 }
      
 
