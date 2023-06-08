@@ -67,11 +67,14 @@ footer {
     display: block;
     margin: 0 auto;
     text-align: center;
+
 }
-footer a {
+footer a,
+footer p {
     color: black;
     text-decoration: none;
     font-size: 14px;
+    color: dimgray;
 }
 
 footer a:hover {
